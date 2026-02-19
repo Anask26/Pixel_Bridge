@@ -90,9 +90,98 @@
     </div>
   </section>
 
-  <section id="portfolio">
-    
+
+  <section class="services-2">
+    <h2 class="services-name-1">OUR RECENT WORKS</h2>
   </section>
+
+  <section id="portfolio">
+    <div class="filter-buttons">
+      <button  class="active" data-filter="views">LIVE PROJECTS</button>
+      <button  data-filter="concepts">CONCEPTS</button>
+      <button  data-filter="portfolio">PORTFOLIO</button>
+    </div>
+
+    <div class="project-1">
+      <div class="outer-div">
+        <div class="pro-1" data-category="views">
+          <img alt="" src="pictures/logo-final-removebg-preview - Copy.png">
+          <div class="title-of-project">
+            <a rel="noopener" href="https://nellaifarmhouse.com" target="_blank">
+              Nellai Farm House
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="outer-div">
+        <div class="pro-2" data-category="views">
+          <img alt="" src="pictures/network_logistics.png">
+          <div class="title-of-project">
+            <a rel="noopener" href="https://networklogistics.in/" target="_blank">
+              Network Logistics
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-2" >
+      <div class="pro-3"  data-category="concepts">
+        <img alt="" src="pictures/logo.jpeg">
+        <a rel="noopener" href="https://anask26.github.io/VIPA/" target="_blank">
+          VIPA Health Mix
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="pricing-section">
+    <h2 class="pricing-title">PRICING PLANS</h2>
+  
+    <div class="pricing-wrapper">
+  
+      <div class="pricing-card" onclick="activateCard(this)">
+        <h3>BASIC</h3>
+        <ul>
+          <li>Single page</li>
+          <li>Mobile responsiveness</li>
+          <li>Contact form</li>
+          <li>1 month revision</li>
+        </ul>
+        <p class="price">₹5,999</p>
+      </div>
+  
+      <div class="pricing-card active" onclick="activateCard(this)">
+        <h3>MEDIUM</h3>
+        <ul>
+          <li>3 pages</li>
+          <li>Mobile responsiveness</li>
+          <li>Contact form</li>
+          <li>2 month revision</li>
+          <li>Faster delivery</li>
+          <li>Scroll effects</li>
+        </ul>
+        <p class="price">₹9,999</p>
+      </div>
+  
+      <div class="pricing-card" onclick="activateCard(this)">
+        <h3>STANDARD</h3>
+        <ul>
+          <li>5 pages</li>
+          <li>Mobile responsiveness</li>
+          <li>Contact form</li>
+          <li>Basic SEO</li>
+          <li>3 month revision</li>
+          <li>Animation</li>
+          <li>Logo optimisation</li>
+        </ul>
+        <p class="price">₹15,999</p>
+      </div>
+  
+    </div>
+  </section>
+  
   
 
 
@@ -106,6 +195,7 @@
 
 
 <!--AEO ANIMATION TAG DONT DISTURB-->
+<script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
