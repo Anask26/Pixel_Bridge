@@ -4,8 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PIXEL BRIDGE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/4a511e42a9.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
@@ -14,73 +19,154 @@
 
 <!--NAVBAR SECTION-->
   <nav class="navbar">
-    <div data-aos="fade-down" data-aos-duration="1500" class="logo">PIXEL BRIDGE</div>
-    <div>
-      <a data-aos="fade-up" data-aos-duration="1500" href="Services">Services<span></span></a>
-      <a data-aos="fade-up" data-aos-duration="2000" href="Portfolio">Portfolio<span></span></a>
-      <a data-aos="fade-up" data-aos-duration="2500" href="Pricing">Pricing<span></span></a>
-      <a data-aos="fade-up" data-aos-duration="3000" href="Team">Team<span></span></a>
-      <a data-aos="fade-up" data-aos-duration="4000" href="Contact">Contact<span></span></a>
+    <div data-aos="fade-down" data-aos-duration="600" class="logo">PIXEL BRIDGE</div>
+    <div class="nav-links" id="primary-nav" aria-label="Primary">
+      <a href="#services">Services<span></span></a>
+      <a href="#portfolio">Portfolio<span></span></a>
+      <a href="#pricing">Pricing<span></span></a>
+      <a href="#team">Team<span></span></a>
     </div>
     <div class="cta-button">Get Started</div>
+    <div class="hamburger" role="button" tabindex="0" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </nav>
 <!--END OF NAVBAR SECTION-->
 
 <!--HERO SECTION-->
-  <section class="hero-section">
+<section class="hero-section" data-aos="fade-in">
+
+  <div class="grid-background"></div>
+
+  <div class="hero-grid">
+
+    <!-- LEFT SIDE -->
     <div class="content">
-      <div class="tag-box">
-        <div class="tag">INTRODUCING &wedbar;</div>
+
+      <div class="tag-box" data-aos="zoom-in" data-aos-delay="200">
+        <div class="tag">INTRODUCING</div>
       </div>
-      <h1>PIXEL BRIDGE</h1>
-      <p class="discription">From Pixels to Performance: Elevating Digital Experiences</p>
-      <div class="buttons">
-        <a href="" class="btn-get-started">Get Started</a>
-        <a href="" class="btn-learn-more">Learn More</a>
+
+      <h1 data-aos="fade-up" data-aos-delay="400">
+        PIXEL BRIDGE
+      </h1>
+
+      <p class="description" data-aos="fade-up" data-aos-delay="600">
+        We create modern, high-converting digital experiences
+        for businesses that want to stand out online.
+      </p>
+
+      <div class="buttons" data-aos="fade-up" data-aos-delay="800">
+        <a href="" class="btn-get-started">Get a Website</a>
+        <a href="" class="btn-learn-more">View Projects</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <h2>10+</h2>
+          <p>Projects</p>
+        </div>
+        <div>
+          <h2>100%</h2>
+          <p>Responsive</p>
+        </div>
+        <div>
+          <h2>24/7</h2>
+          <p>Support</p>
+        </div>
       </div>
     </div>
-  </section>
+    <!-- RIGHT SIDE -->
+    <div class="hero-visual">
+      <div class="orb"></div>
+      <div class="floating-card card-one">
+        Modern UI
+      </div>
+      <div class="floating-card card-two">
+        Fast Performance
+      </div>
+      <div class="floating-card card-three">
+        Creative Design
+      </div>
+    </div>
+  </div>
+</section>
 <!--HERO SECTION ENDS HERE-->
 
+
+
+
 <!--SERVICES SECTION-->
-  <section class="services-1">
-    <h2 class="services-name">SERVICES</h2>
-  </section>
+
+<section class="section-heading">
+
+  <h1 class="bg-text">
+    SERVICES
+  </h1>
+
+  <div class="heading-content">
+    <span class="mini-tag">
+      WHAT WE DO
+    </span>
+    <h2>
+      Crafting Modern <br>
+      Digital Experiences
+    </h2>
+    <p>
+      We build visually stunning and high-performing websites
+      designed to elevate your brand online.
+    </p>
+  </div>
+
+</section>
 
 
-  <section class="services-section" id="services">
+  <section class="services-section" id="services" data-aos="fade-up">
     <div class="services-container">
   
-      <div class="services-header">
+      <div class="services-header" data-aos="fade-up" data-aos-delay="200">
         <p>
           We focus on building clean, fast, and effective websites that help
           businesses grow online.
         </p>
       </div>
-      <div class="services-grid">
-        <div class="service-card">
-          <span class="service-number">01</span>
+      <div class="services-grid" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="service-top">
+            <span class="service-number">01</span>
+            <i class="fa-solid fa-laptop-code"></i>
+          </div>
           <h3>Business Websites</h3>
           <p>
             Professional and responsive websites for businesses and startups.
           </p>
         </div>
-        <div class="service-card">
-          <span class="service-number">02</span>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="service-top">
+            <span class="service-number">02</span>
+            <i class="fa-solid fa-bolt"></i>
+          </div>
           <h3>Landing Pages</h3>
           <p>
             High-converting landing pages designed for campaigns and promotions.
           </p>
         </div>
-        <div class="service-card">
-          <span class="service-number">03</span>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="600">
+          <div class="service-top">
+            <span class="service-number">03</span>
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
           <h3>Portfolio Websites</h3>
           <p>
             Personal and portfolio websites for freelancers and professionals.
           </p>
         </div>
-        <div class="service-card">
-          <span class="service-number">04</span>
+        <div class="service-card" data-aos="zoom-in" data-aos-delay="800">
+          <div class="service-top">
+            <span class="service-number">04</span>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </div>
           <h3>Website Redesign</h3>
           <p>
             Modern redesigns to improve speed, usability, and visual appeal.
@@ -90,19 +176,42 @@
     </div>
   </section>
 
+<!--PORTFOLIO STARTS HERE-->
 
-  <section class="services-2">
-    <h2 class="services-name-1">OUR RECENT WORKS</h2>
-  </section>
+<section class="section-heading portfolio-heading">
 
-  <section id="portfolio">
-    <div class="filter-buttons">
+  <h1 class="bg-text">
+    WORKS
+  </h1>
+
+  <div class="heading-content">
+
+    <span class="mini-tag">
+      PORTFOLIO
+    </span>
+
+    <h2>
+      Selected Projects <br>
+      That Define Our Creativity
+    </h2>
+
+    <p>
+      A collection of modern websites crafted with performance,
+      aesthetics, and user experience in mind.
+    </p>
+
+  </div>
+
+</section>
+
+  <section id="portfolio" data-aos="fade-up">
+    <div class="filter-buttons" data-aos="fade-up" data-aos-delay="200">
       <button  class="active" data-filter="views">LIVE PROJECTS</button>
       <button  data-filter="concepts">CONCEPTS</button>
       <button  data-filter="portfolio">PORTFOLIO</button>
     </div>
 
-    <div class="project-1">
+    <div class="project-1" data-aos="fade-up" data-aos-delay="400">
       <div class="outer-div">
         <div class="pro-1" data-category="views">
           <img alt="" src="pictures/logo-final-removebg-preview - Copy.png">
@@ -125,7 +234,7 @@
       </div>
     </div>
 
-    <div class="project-2" >
+    <div class="project-2" data-aos="fade-up" data-aos-delay="600">
       <div class="pro-3"  data-category="concepts">
         <img alt="" src="pictures/logo.jpeg">
         <a rel="noopener" href="https://anask26.github.io/VIPA/" target="_blank">
@@ -136,12 +245,21 @@
   </section>
 
 
-  <section class="pricing-section">
-    <h2 class="pricing-title">PRICING PLANS</h2>
+
+<!--PRICING SECTION BEGINS HERE-->
+
+  <section class="pricing-section" id="pricing" data-aos="fade-up">
+    <h1 class="pricing-bg-text">
+      PRICING
+    </h1>
+    <h2 class="pricing-title" data-aos="fade-up" data-aos-delay="200">Choose Your Digital Experience</h2>
+    <p class="pricing-subtitle">
+      Flexible website solutions crafted for startups,
+      growing brands, and ambitious businesses.
+    </p>
   
-    <div class="pricing-wrapper">
-  
-      <div class="pricing-card" onclick="activateCard(this)">
+    <div class="pricing-wrapper" data-aos="fade-up" data-aos-delay="400">
+      <div class="pricing-card" onclick="activateCard(this)" data-aos="zoom-in" data-aos-delay="200">
         <h3>BASIC</h3>
         <ul>
           <li>Single page</li>
@@ -150,9 +268,13 @@
           <li>1 month revision</li>
         </ul>
         <p class="price">₹5,999</p>
+        <a href="#footer" class="pricing-btn">
+          Book a Call
+        </a>
       </div>
   
-      <div class="pricing-card active" onclick="activateCard(this)">
+      <div class="pricing-card active pricing-card--featured" onclick="activateCard(this)" data-aos="zoom-in" data-aos-delay="400">
+        <span class="pricing-ribbon" aria-hidden="true">Most popular</span>
         <h3>MEDIUM</h3>
         <ul>
           <li>3 pages</li>
@@ -163,9 +285,12 @@
           <li>Scroll effects</li>
         </ul>
         <p class="price">₹9,999</p>
+        <a href="#footer" class="pricing-btn">
+          Book a Call
+        </a>
       </div>
   
-      <div class="pricing-card" onclick="activateCard(this)">
+      <div class="pricing-card" onclick="activateCard(this)" data-aos="zoom-in" data-aos-delay="600">
         <h3>STANDARD</h3>
         <ul>
           <li>5 pages</li>
@@ -174,15 +299,89 @@
           <li>Basic SEO</li>
           <li>3 month revision</li>
           <li>Animation</li>
-          <li>Logo optimisation</li>
         </ul>
         <p class="price">₹15,999</p>
+        <a href="#footer" class="pricing-btn">
+          Book a Call
+        </a>
       </div>
-  
     </div>
   </section>
   
+  <!--+++++++++++ OUR TEAM =================-->
+
+<section id="team" data-aos="fade-up">
+  <section class="section-heading team-heading">
+
+    <h1 class="bg-text">
+      TEAM
+    </h1>
   
+    <div class="heading-content">
+  
+      <span class="mini-tag">
+        FOUNDERS
+      </span>
+  
+      <h2>
+        The Creative Minds <br>
+        Behind Pixel Bridge
+      </h2>
+  
+      <p>
+        A passionate team focused on building visually stunning
+        and performance-driven digital experiences.
+      </p>
+  
+    </div>
+  
+  </section>
+  <div class="cards-1" data-aos="fade-up" data-aos-delay="400">
+    <div class="card">
+        <div class="thumb">
+            <img src="pictures/Faizal.png" alt="">
+            <div class="social">
+                <input type="checkbox" name="" id="toggle1" class="share-toggle">
+                <label for="toggle1" class="share-button">
+                    <i class="fas fa-plus"></i>
+                </label>
+                </a>
+                <a href="mailto:pixelbridge.tech@gmail.com" class="share-icon" title="Email">
+                  <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/faizal-khan" class="share-icon" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <div class="info">
+            <h2>Faizal Khan</h2>
+            <span>Founder</span>
+        </div>
+    </div>
+    <div class="card">
+        <div class="thumb">
+            <img src="pictures/Anas.jpeg" alt="">
+            <div class="social">
+                <input type="checkbox" name="" id="toggle2" class="share-toggle">
+                <label for="toggle2" class="share-button">
+                    <i class="fas fa-plus"></i>
+                </label>
+                </a>
+                <a href="mailto:pixelbridge.tech@gmail.com" class="share-icon" title="Email">
+                  <i class="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://linkedin.com/in/anas" class="share-icon" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+        <div class="info">
+            <h2>Anas</h2>
+            <span>Co-Founder</span>
+        </div>
+    </div>
+  <!--+++++++++++ OUR TEAM SECTION ENDS HERE =================-->
 
 
 
@@ -192,13 +391,64 @@
 
 
 
-
+<!--++++++++ FOOTER DEISGN ==========-->
+  <footer data-aos="fade-up">
+    <div class="row" data-aos="fade-up" data-aos-delay="200">
+      <div class="col">
+        <h2>PIXEL BRIDGE</h2>
+        <p>From Pixels to Performance: Elevating Digital Experiences</p>
+      </div>
+      <div class="col">
+        <h3>Contact <div class="underline"><span></span></div></h3>
+        <p class="email-id">pixelbridge.tech@gmail.com</p>
+        <h4>+91 9876543210</h4>
+      </div>
+      <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Team</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>For Enquiry <div class="underline"><span></span></div></h3>
+        <form id="enquiry-form">
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Enter your email" required id="enquiry-email">
+          <button type="submit" title="Send Enquiry"><i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <div class="social-icons">
+          <a href="mailto:pixelbridge.tech@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+          <a href="https://instagram.com/pixelbridge" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>  
+    <hr>
+    <p class="copyright">Copyright &copy; 2026 Pixel Bridge. All rights reserved.</p>
+  </footer>
+<!--========= FOOTER ENDS +++++++++++++++++++++-->
 
 <!--AEO ANIMATION TAG DONT DISTURB-->
 <script src="script.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-  AOS.init();
+  (function () {
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) {
+      AOS.init({ disable: true });
+    } else {
+      AOS.init({
+        duration: 900,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 48,
+        delay: 0,
+        mirror: false
+      });
+    }
+  })();
 </script>
 <!--AEO ANIMATION TAG DONT DISTURB ENDS HERE-->
 
